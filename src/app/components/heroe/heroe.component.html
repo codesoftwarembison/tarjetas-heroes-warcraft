@@ -1,0 +1,31 @@
+<div class="row" >
+    <div class="col-lg-3 col-md-12 col-sm-12 mt-4 text-center" style="z-index: 39;">
+        <div class="div-color">
+            <h2 class="{{serviceClass.ClassColorNeon(_heroe.race)}} pt-3">Habilidades</h2>
+            <hr>
+            <div *ngFor="let skill of _heroe.skills" class="frame con-tooltip right">
+                <img [src]="skill.img">
+                <div class="tooltip">
+                    <p><b class="{{serviceClass.ClassColorNeon(_heroe.race)}}">{{skill.name}}
+                        </b><br>{{skill.description}}</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-lg-8 col-md-12 col-sm-12 mt-4" >
+        <div class="div-color">
+            <h2 class="{{serviceClass.ClassColorNeon(_heroe.race)}}">{{_heroe.name}}</h2>
+            <hr>
+            <p>{{_heroe.description}}</p>
+
+            <p class="{{serviceClass.ClassColorNeon(_heroe.race)}}"><b> Raza:</b> {{_heroe.race}}</p>
+            <a class="btn-block {{serviceClass.ChangeColorBtn(_heroe.race)}}" [routerLink]="['/heroes']"
+                routerLinkActive="router-link-active"> Ver más heroes ...</a>
+
+        </div>
+        <div>
+        </div>
+    </div>
+
+</div>

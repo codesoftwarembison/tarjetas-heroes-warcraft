@@ -1,0 +1,14 @@
+<h1 class="h1-titulo neon-blue">Héroes de <small>Warcraft</small></h1>
+<hr>
+<div class="column-cards">
+  <div *ngFor="let heroe of heores let i=index" [routerLink]="['/heroe',i]" class="card-hover">
+    <div class="card  {{ serviceClass.ClassColorBorder(heroe.race)}}" >
+      <div class="card-content">
+        <div class="image" style="background-image: url({{heroe.img}});"></div>
+        <h2 class="text layer-3 {{serviceClass.ClassColorNeon(heroe.race)}}">
+          {{heroe.name}}
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
