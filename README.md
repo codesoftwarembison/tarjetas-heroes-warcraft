@@ -1,7 +1,8 @@
-﻿#Heroes de warcraft 3
+﻿##Heroes de warcraft 3
 
 **Fan page responsive** super sencilla trabajada sobre **angular 10** la cual muestra información referente a los heroes del mundo de warcraft. 
-
+## Previsualización
+https://hckerosos.github.io/Heroes-warcraft/home
 ## Contenido del proyecto
 ![Captura](https://user-images.githubusercontent.com/33797747/106696862-98a9a600-65ab-11eb-8c68-6de41bf0a4ee.PNG)
 
