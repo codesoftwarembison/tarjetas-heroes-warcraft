@@ -6,7 +6,7 @@
 La fan page consiste en visualizar ó buscar cartas con información detallada de heroes del universo de warcraft 3, ensamblado completamente en **css3**.
 
 ## Previsualización
-https://hckerosos.github.io/Heroes-warcraft/home
+https://codesoftwarembison.github.io/tarjetas-heroes-warcraft/home
 
 ## Contenido del proyecto
 ![Captura](https://user-images.githubusercontent.com/33797747/106696862-98a9a600-65ab-11eb-8c68-6de41bf0a4ee.PNG)
